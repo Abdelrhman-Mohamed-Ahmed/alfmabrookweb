@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>محلات الف مبروك</title>
+    <link rel="icon" href="image copy/logo.png">
+    <link rel="stylesheet" href="bootstrap-5.3.0-dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@700&display=swap" rel="stylesheet">
+</head>
+<style>
+        body{
+        background: linear-gradient(rgb(193, 19, 173),rgb(0, 225, 255));
+       height:100%;
+       background-attachment: fixed;
+        }
+    .items{
+        
+        display: flex;
+         flex-wrap: wrap;
+         flex-direction: row;
+         justify-content: space-between;
+         
+    }
+    .img{
+        height: 70px;
+        
+        width: 120px;
+        padding: 0;
+        border: 4px solid white;
+        border-radius: 8px;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        scale: 1.4;
+    }
+    .item{
+border: 8px rgb(255, 255, 255) solid;
+border-radius: 10px;
+display: flex;
+flex-direction: column;
+text-align: center;
+margin-bottom: auto;
+background-color:transparent;
+padding: 25px;
+margin-left:10px;
+margin-top: 5%;
+margin-right: 10px;
+    }
+    .title{
+        color: white;
+        font-size: xx-large;
+        text-align: center;
+        font-family: 'Readex Pro', sans-serif;
+
+    }
+    h1{
+        color: white;
+        
+    }
+    .btns{
+        border: 5px solid white;
+        padding: 10px;
+        font-family: 'Readex Pro', sans-serif;
+        background-color: transparent;
+        border-radius: 8px;
+        color: white;
+    }
+    .btns:hover{
+        border: 5px solid white;
+        padding: 10px;
+        font-family: 'Readex Pro', sans-serif;
+        background-color: white;
+        transition: all 1s;
+        border-radius: 8px;
+        color: rgb(0, 0, 0);
+    }
+    .nav-item{
+   border: solid 5px rgb(255, 255, 255);
+   margin: 3%;
+   border-radius: 10px;
+   margin-left: 5%;
+}
+.nav-link{
+  color: rgb(255, 255, 255); 
+  padding-left: 35%;
+}
+#homescreen{
+    font-family: 'Readex Pro', sans-serif;
+}
+
+
+
+        @media (min-width:30px)and (max-width:650px){
+            .item{
+                
+                margin-left: 15%;
+            }
+        }
+</style>
+<body>
+    <nav class="navbar navbar-expand-lg bg-transiet  navbar-dark justify-content-center">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="image copy/logo.png" alt="" style="height: 70px; border: transparent 10px solid;"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html" id="homescreen">الصفحة الرئيسية</a>
+              </li>
+            
+       
+            </ul>
+      
+          </div>
+        </div>
+      </nav>
+    <h1 class="title">احدث الموديلات</h1>
+    <div class="items">
+        <div class="item">
+            <img src="image copy/models/طقم كتان اسباني.jpg" alt="" class="img">  
+            <h1> كتان اسباني<br> 3 قطع</h1>
+            <h1>السعر | 950 ج.م</h1>
+            <button onclick=" sendproduct('اريد طلب (طقم كتان اسباني)')"  class="btns">تواصل للطلب </button>
+        </div>
+        <div class="item">
+            <img src="image copy/models/ستان اسباني تطريز هاند ميد.jpg" alt="" class="img">  
+            <h1>ستان اسباني </h1>
+            <h1>السعر | 850 ج.م </h1>
+            <button onclick=" sendproduct('اريد طلب (ستان اسباني تطريز هاند ميد)')"  class="btns">تواصل للطلب </button>
+        </div>
+        <div class="item">
+            <img src="image copy/models/اندرشيرت خامه ستان اسباني.jpg" alt="" class="img">  
+            <h1>اندرشيرت ستان</h1>
+            <h1>السعر | 240 ج.م</h1>
+            <button onclick=" sendproduct('اريد طلب (اندرشيرت خامه ستان اسباني)')"  class="btns">تواصل للطلب </button>
+        </div>
+
+        <div class="item">
+            <img src="image copy/models/بليزر هاند ميد.jpg" alt="" class="img">  
+            <h1>بليزر هاند ميد</h1>
+            <h1>السعر | 690 ج.م</h1>
+            <button onclick=" sendproduct('اريد طلب (بليزر هاند ميد)')"  class="btns">تواصل للطلب </button>
+        </div>
+
+        <div class="item">
+            <img src="image copy/models/توينز دريس بيزك سي واي مستورد كاردن كت بشريط هندي.jpg" alt="" class="img">  
+            <h1>توينز دريس<br> 3 قطع</h1>
+            <h1>السعر | 690 ج.م</h1>
+            <button onclick=" sendproduct('اريد طلب (توينز دريس  بيزك سي واي مستورد)')"  class="btns">تواصل للطلب </button>
+        </div>
+
+        <div class="item">
+            <img src="image copy/models/تونيك متاح بتلت الوان.jpg" alt="" class="img">  
+            <h1>تونيك <br> 3 الوان</h1>
+            <h1>السعر | 620 ج.م</h1>
+            <button onclick=" sendproduct('اريد طلب (تونيك  سي واي مستورد (3 الوان))')"  class="btns">تواصل للطلب </button>
+        </div>
+
+        <div class="item">
+            <img src="image copy/models/012.jpg" alt="" class="img">  
+            <h1>بليزر هاند ميد<br><br> من ميديام ل 12اكس</h1>
+            <h1>السعر | 690 ج.م</h1>
+            <button onclick=" sendproduct('اريد طلب (بليزر هاند ميد لون بيج)')"  class="btns">تواصل للطلب </button>
+        </div>
+
+        <div class="item">
+            <img src="image copy/models/بونشو قطن البدي والطرحه.jpg" alt="" class="img">  
+            <h1>بونشو قطن<br> البدى و الطرحه</h1>
+            <h1>السعر | 690 ج.م</h1>
+            <button onclick=" sendproduct('اريد طلب (بونشو قطن البدى والطرحه)')"  class="btns">تواصل للطلب </button>
+        </div>
+        
+        <div class="item">
+            <img src="image copy/models/تيشرت قطن جيوب جينز كابشو أطار جينز.jpg" alt="" class="img">  
+            <h1>تيشرت قطن  <br></h1>
+            <h1>السعر | 380 ج.م</h1>
+            <button onclick=" sendproduct('اريد طلب (تيشرت قطن جوب جينز)')"  class="btns">تواصل للطلب </button>
+        </div>
+
+        <div class="item">
+            <img src="image copy/models/دريس شيفون وفستان بيزك قطع.jpg" alt="" class="img">  
+            <h1>دريس شيفون<br></h1>
+            <h1>السعر | 650 ج.م</h1>
+            <button onclick=" sendproduct('اريد طلب (دريس شيفون وفستان بيزك قطع)')"  class="btns">تواصل للطلب </button>
+        </div>
+
+                <div class="item">
+            <img src="image copy/models/تونيك سي واي مستورد متاح بلونين.jpg" alt="" class="img">  
+            <h1>تونيك   <br><br> 2 الوان</h1>
+            <h1>السعر | 590 ج.م</h1>
+            <button onclick=" sendproduct('اريد طلب (تونيك سي واي مستورد (2 الوان))')"  class="btns">تواصل للطلب </button>
+        </div>
+
+        <div class="item">
+            <img src="image copy/models/تونيك سي واي مستورد متاح خمس الوان.jpg" alt="" class="img">  
+            <h1> تونيك <br><br> 3 الوان</h1>
+            <h1>السعر | 690 ج.م</h1>
+            <button onclick=" sendproduct('اريد طلب ( تونيك سي واي مستورد (5 الوان))')"  class="btns">تواصل للطلب </button>
+        </div>
+
+        
+    </div>
+    
+    <script>
+function sendproduct(x){
+    location="https://wa.me/+201124273696?text="+x;
+}
+
+    </script>
+    <script src="bootstrap-5.3.0-dist/js/bootstrap.min.js"></script>
+</body>
+</html>
